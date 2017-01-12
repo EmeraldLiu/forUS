@@ -35,40 +35,40 @@
               "It was a colonial victory that encouraged foreign support"],
     correctAnswer: 3
   }, {
-    question: "What event led by indentured servants changed the nation?",
-    choices: ["Bacon’s Rebellion",
-              "King Philip’s War",
-              "Pueblo Revolt",
-              "Shay’s Rebellion"],
-    correctAnswer: 0
+    question: "What event led the Founders to change the Articles of Confederation?",
+    choices: ["Whiskey Rebellion",
+              "Shays' Rebellion",
+              "Battle of Lexington and Concord",
+              "Treaty of Paris"],
+    correctAnswer: 1
   }, {
-    question: "What is NOT is a way the English tried to tighten control on the colonies?",
-    choices: ["Mercantilism",
-              "Pass the Navigation Acts",
-              "Establish the Iroquois Confederacy",
-              "Establish the Dominion of New England"],
+    question: "How did the Constitution address slavery?",
+    choices: ["It was banned due to new ideals",
+              "Explicitly stated and legal",
+              "Included compromises that implicitly state it",
+              "Included an entire article discussing it"],
     correctAnswer: 2
   }, {
-    question: "What is the reason for the start of Great Awakening?",
-    choices: ["To restore the declining economy after British collected taxes",
-              "To revive the current religious state because people focus too much on material wealth",
-              "To attract more religious followers in the New World",
-              "The greater production of Bibles"],
-    correctAnswer: 1
+    question: "What did the Federalists want?",
+    choices: ["Strong state power",
+              "Protection of individual rights",
+              "The Constitution to be rewritten",
+              "Strong central government"],
+    correctAnswer: 3
   }, {
-    question: "Why was slavery more prevalent in the South than the North?",
-    choices: ["Southern colonies relied more on labor for crops",
-              "The religious North didn’t want slaves",
-              "Slaves died in colder climates",
-              "Slaves could performed better on farmland"],
+    question: "What role in politics did women play?",
+    choices: ["Did not participate at all",
+              "Participated in voting and other civic duties",
+              "Perpetuated republican ideals",
+              "Protested for voting rights"],
+    correctAnswer: 2
+  }, {
+    question: "What was a result of the Whiskey Rebellion?",
+    choices: ["Secured the authority of the government under the Constitution",
+              "Made the Founders scrap the Articles of Confederation",
+              "Led to the ratification of the Bill of Rights",
+              "Severely injured many citizens, including George Washington"],
     correctAnswer: 0
-  }, {
-    question: "Which best describes how Britain ruled the colonies prior to mid-1700s?",
-    choices: ["Colonies were neglected but praised",
-              "Rules were rarely enforced so the colonies benefitted from it",
-              "Isolated the colonies from each other",
-              "Stopped trading with the colonies"],
-    correctAnswer: 1
   }];
   
   var questionCounter = 0; //Tracks question number

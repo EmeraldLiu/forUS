@@ -39,7 +39,7 @@
     choices: ["Bacon’s Rebellion",
               "King Philip’s War",
               "Pueblo Revolt",
-              "Shay’s Rebellion"],
+              "Shays' Rebellion"],
     correctAnswer: 0
   }, {
     question: "What is NOT is a way the English tried to tighten control on the colonies?",
