@@ -47,7 +47,7 @@ h3 {
 
 h4 {
     color: white;
-    padding: 0% 10%;
+    margin: 2% 10%;
     font-size: 20pt;
 }
 
@@ -344,11 +344,90 @@ li.dropdown{
 }
 
 /* court case styles */
+#prom-courts{
+    margin: 0 10% 3% 10%;
+}
+#marshall{
+    float: left;
+    max-width: 50%;
+}
+
+#warren{
+    float: right;
+    max-width: 50%;
+}
 #case-intro {
     color: white;
     background-color: #446cb4;
+    position: relative;
 }
 
+#sub-nav{
+    clear: left;
+    margin: 0 10%;
+    background-color: #446cb4;
+}
+
+#sub-nav a {
+    color: #446cb4;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25pt;
+    padding: 110px 40px;
+    background-color: white;
+    display: table;
+    border-bottom: 10px solid #446cb4;
+}
+
+#prom-cases{
+    color: #446cb4;
+}
+#squares1{
+    float: left;
+}
+
+#squares3{
+    float: right;
+}
+
+#squares2{
+    display: table;
+    margin: auto;
+}
+
+#case-1{
+    clear: left;
+}
+
+.case{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+/*#flag1 {
+  width: 110px;
+  height: 56px;
+  padding-top: 15px;
+  position: relative;
+  background: red;
+  color: white;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#flag1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid #eee;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+}*/
 /* quiz page styles */
 #quiz {
     display: none;

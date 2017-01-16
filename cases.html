@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:1200px)" href="assets/css/screen_layout_medium.css"/>
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="assets/css/screen_layout_small.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -47,38 +48,57 @@
 		<div id="case-intro">
 			<h1 class="periodTitles">Court Cases</h1>
 
-			<p class="case">Court cases are a pretty big part of U.S. History and some turning points occur because of them (ex: segregation). It’s good to know the major ones and some are quite interesting. (They can also be used as evidence on essays or debates).</p>
+			<p>Court cases are a pretty big part of U.S. History and some turning points occur because of them (ex: segregation). It’s good to know the major ones and some are quite interesting. (They can also be used as evidence on essays or debates).</p>
 
-			<p class="case">Here we’ll be outlining major court cases that are brought up in history and a couple courts that have stood out, including the basics (what is this even about?) and the context (how am I supposed to know when this was?).</p>
+			<p>Here we’ll be outlining major court cases that are brought up in history and a couple courts that have stood out, including the basics (what is this even about?) and the context (how am I supposed to know when this was?).</p>
 
 
 			<h4>Prominent courts in U.S. History</h4>
 				
-				<p class="case">Marshall Court (1801 - 1835)
-					<br>A.K.A the first and most major court you’ll hear about
-				</p>
-					<ul>
-						<li>Chief Justice John Marshall</li>
-						<li>Preferred federal rights over states’ rights (pretty much Federalists)</li>
-						<li>Expanded the power of the Supreme Court (judicial review!)</li>
-					</ul>
-				
-				<p class="case">Warren Court (1953 - 1969)
-					<br>A.K.A the really liberal one during the Civil Rights Movement
-				</p>
-					<ul>
-						<li>Chief Justice Earl Warren</li>
-						<li>Protected the rights of the accused and minorities</li>
-					</ul>
+				<div id="prom-courts">
+					<div id="marshall">
+						
+						<p class="case">Marshall Court (1801 - 1835)
+							<br>A.K.A the first and most major court you’ll hear about
+						</p>
+						
+						<ul>
+							<li>Chief Justice John Marshall</li>
+							<li>Preferred federal rights over states’ rights (pretty much Federalists)</li>
+							<li>Expanded the power of the Supreme Court (judicial review!)</li>
+						</ul>
 
-			<h4>Prominent court cases in U.S. History</h4>
+					</div>
+					
+					<div id="warren">
 
+						<p class="case">Warren Court (1953 - 1969)
+							<br>A.K.A the really liberal one during the Civil Rights Movement
+						</p>
+							<ul>
+								<li>Chief Justice Earl Warren</li>
+								<li>Protected the rights of the accused and minorities</li>
+							</ul>
 
+					</div>
 
+				</div>
+
+				<div id="sub-nav">
+					
+					<a href="#case-1" id="squares1">1800s-1870s</a>
+					<a href="#case-3" id="squares3">1950s-2000s</a>
+					<a href="#case-2" id="squares2">1870s-1950s</a>
+
+				</div>
 
 		</div>
 
-			<h5>1800s</h5>
+
+		<div id="case-1">
+
+			<h4 id="prom-cases">Prominent court cases in U.S. History</h4>
+
 			<p class="case">Marbury v. Madison - 1803 - Marshall Court
 				<br>A.K.A. the one that introduced judicial review
 			</p>
@@ -213,6 +233,10 @@
 					</li>
 				</ul>
 
+			</div>
+
+			<div id="case-2">
+
 			<p class="case">Pollock v. The Farmers’ Loan and Trust Co. - 1895 - Fuller Court
 				<br>A.K.A. the one that claimed that taxes had to be uniform
 			</p>
@@ -249,7 +273,6 @@
 					</li>
 				</ul>
 
-			<h5>1900s</h5>
 			<p class="case">Insular cases - 1901
 				<br>A.K.A. the one about what to do when the U.S. gets involved in imperialism
 			</p>
@@ -355,6 +378,10 @@
 					</ul>
 					</li>
 				</ul>
+
+			</div>
+
+			<div id="case-3">
 
 			<p class="case">Brown v. Board of Education - 1954 - Warren Court
 				<br>A.K.A. the one that made up for the mistake that was Plessy
@@ -498,7 +525,6 @@
 					</li>
 				</ul>
 
-			<h5>2000s</h5>
 			<p class="case">Bush v. Gore - 2000 - Rehnquist Court
 				<br>A.K.A. the one where the Electoral College didn’t match up with popular vote
 			</p>
@@ -516,8 +542,13 @@
 					</ul>
 					</li>
 				</ul>
+			</div>
 
 		<footer>&copy; 2017<!--Emerald Liu & Solange Nhan--></footer>
 
 	</body>
+
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</html>
+
 </html>
