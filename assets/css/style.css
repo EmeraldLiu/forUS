@@ -115,24 +115,15 @@ li.dropdown{
 .dropdown-content {
     display:none;
     position: absolute;
-    margin-left:-37px;
-    padding-top: 10px;
-    background-color: #fff;
-    z-index: 100;
-}
-
-.dropdown-content2 {
-    display:none;
-    position: absolute;
     margin-left:-51px;
     padding-top: 10px;
     background-color: #fff;
     z-index: 100;
 }
 
-.dropdown-content a, .dropdown-content2 a {
+.dropdown-content a{
     color: #dd4949;
-    padding: 14px 40px 6px 40px;
+    padding: 14px 25px 6px 25px;
     text-decoration: none;
     font-size: 22pt;
     display: block;
