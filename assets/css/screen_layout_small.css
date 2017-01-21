@@ -5,8 +5,16 @@ h1{
 h3{
   margin: 20px 0;
 }
-p
 
+#marshall, #warren {
+    float: none;
+    max-width: none; 
+}
+
+#case-1, #case-2, #case-3{
+ float:none;
+  display:inline-block;
+}
 .aboutQuiz{
   margin:5% 8%;
 }
