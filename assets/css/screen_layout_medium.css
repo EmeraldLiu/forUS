@@ -2,6 +2,9 @@
 h1{
 	font-size: 40pt;
 }
+.periodTitles{
+	padding: 2% 0;
+}
 
 /* Nav styles */
 nav ul li a, .dropbtn {
