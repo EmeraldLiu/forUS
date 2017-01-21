@@ -20,11 +20,12 @@ h3{
 }
 
 #quiz{
-  width:0;
+  width:100%;
 }
 
 #container{
   width:80%;
+  font-size:18pt;
   padding-left:30px;
 }
 
