@@ -1,0 +1,35 @@
+/* global */
+h1{
+	font-size: 40pt;
+}
+
+/* Nav styles */
+nav ul li a, .dropbtn {
+	font-size: 20pt;
+}
+
+nav ul li {
+	margin: 10px 22px 10px 22px;
+}
+
+#homebtn{
+    margin: 20px 12px 0 12px;
+}
+
+.dropdown-content {
+    margin-left:-30px;
+}
+
+.dropdown-content a{
+    padding: 10px 8px 7px 8px;
+    font-size: 18pt;
+}
+
+/* home page */
+#slogan{
+    font-size: 33pt;
+}
+
+#about-para{
+	font-size: 11pt;
+}

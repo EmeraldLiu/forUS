@@ -17,16 +17,14 @@ green: #9fd189;
     src: url(../fonts/DIN1451.otf);
 }
 
-/* base styles */
+/* base styles and universal styles */
 html {
 	color: #212121;
 	font-family: 'Quicksand', sans-serif;
-    min-width: 1000px;
 }
 
 body {
 	margin: 0 auto;
-	position: relative;
 }
 
 h1 {
@@ -73,6 +71,22 @@ footer {
 	text-align: center;
 }
 
+.periodTitles{ /*Every title*/
+    margin: 0;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-top:1.6%; 
+}
+
+.intro { /* Cases and Presidents Page */
+    color: white;
+    background-color: #446cb4;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 1%;
+}
+
 /* nav styles */
 nav {
 	font-family: din, sans-serif;
@@ -96,6 +110,7 @@ nav ul li {
 #homebtn{
     margin: 20px 20px 0 20px;
 }
+
 nav ul li a, .dropbtn {
 	text-decoration: none;
     display: inline-block;
@@ -115,56 +130,36 @@ li.dropdown{
 .dropdown-content {
     display:none;
     position: absolute;
-    margin-left:-37px;
-    padding-top: 10px;
-    background-color: #fff;
-    z-index: 100;
-}
-
-.dropdown-content2 {
-    display:none;
-    position: absolute;
     margin-left:-51px;
     padding-top: 10px;
     background-color: #fff;
     z-index: 100;
 }
 
-.dropdown-content a, .dropdown-content2 a {
+.dropdown-content a{
     color: #dd4949;
-    padding: 14px 40px 6px 40px;
+    padding: 14px 25px 6px 25px;
     text-decoration: none;
     font-size: 22pt;
     display: block;
     text-align: center;
 }
 
-.dropdown-content a:hover, .dropdown-content2 a:hover{
+.dropdown-content a:hover{
     background-color: #de4a4a;
     color: white;
 }
 
-.dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content2{
+.dropdown:hover .dropdown-content{
     display: block;
 }
 
 /* index page styles */
-
-/*
-#home {
-	background: #fff url(../_media/banner.png) no-repeat top left;
-	background-attachment: fixed;
-	background-size: cover;
-	position: left;
-	height: 100vh;
-	color: #fff;
-}
-*/
 .banner{
     position: relative;
 }
 
-#blue-banner{
+#blue-bg{
     width: 100%;
 }
 
@@ -183,6 +178,10 @@ li.dropdown{
 	margin: 5% 10%;
 }
 
+#about-para{
+    font-size: 12pt;
+    margin-top:40px;
+}
 
 /* Periods styles */
 
@@ -191,21 +190,13 @@ li.dropdown{
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-.periodTitles{ /*doesnt work right now*/
-    margin: 0;
-    color: white;
-    position: relative;
-    text-align: center;
-    padding-top:1.6%; 
-}
-
 .maps{
     position: relative;
     background-color: #446cb4;
 }
 
 .period-content{
-    margin: 65% 0 3% 0;
+    margin: 60% 0 3% 0;
 }
 
 .fade0{
@@ -278,26 +269,6 @@ li.dropdown{
     list-style-type: none;
 }
 
-/* Presidents Page Ver. 1 */
-/*
-#presGrid{
-	margin: 0px 10%;
-}
-
-.presInfo{
-	display: none;
-	position: absolute;
-	text-align: center;
-	width: 76%;
-	background-color: white;
-	border-radius: 3px;
-	padding: 5px 10px;
-	border: solid black 2px;
-}
-*/
-
-/* Presidents Page Ver. 2*/
-
 .info-container{
 	display: none;
 	color: white;
@@ -356,11 +327,6 @@ li.dropdown{
     float: right;
     max-width: 50%;
 }
-#case-intro {
-    color: white;
-    background-color: #446cb4;
-    position: relative;
-}
 
 #sub-nav{
     clear: left;
@@ -382,6 +348,7 @@ li.dropdown{
 #prom-cases{
     color: #446cb4;
 }
+
 #squares1{
     float: left;
 }
@@ -399,35 +366,17 @@ li.dropdown{
     clear: left;
 }
 
-.case{
+.case, .case-aka{
     font-size: 16pt;
     font-weight: bold;
+    margin: 0;
 }
 
-/*#flag1 {
-  width: 110px;
-  height: 56px;
-  padding-top: 15px;
-  position: relative;
-  background: red;
-  color: white;
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-align: center;
-  text-transform: uppercase;
+.case-aka{
+    font-size: 14pt;
+    color: #dd4949;
 }
 
-#flag1:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 13px solid #eee;
-  border-left: 55px solid transparent;
-  border-right: 55px solid transparent;
-}*/
 /* quiz page styles */
 #quiz {
     display: none;
@@ -462,7 +411,7 @@ button {
 
 .bg {
 	background-color: #446cb4;
-	padding: 5% 0%;
+	padding-bottom: 5%;
 }
 
 #container {
