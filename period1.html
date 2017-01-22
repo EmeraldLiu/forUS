@@ -11,39 +11,53 @@
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="assets/css/screen_layout_small.css"/>
         <script type="text/javascript" src="assets/js/modernizr.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 
 	<body>
-		<nav>
-			<ul>
-                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">history</a>
-					<div class="dropdown-content">
-						<a href="period1.html">1491-1607</a>
-						<a href="period2.html">1607-1754</a>
-						<a href="period3.html">1754-1800</a>
-						<a href="period4.html">1800-1848</a>
-						<a href="period5.html">1848-1877</a>
-						<a href="period6.html">1865-1898</a>
-						<a href="period7.html">1890-1945</a>
-						<a href="period8.html">1945-1980</a>
-						<a href="period9.html">1980-Present</a>
-					</div>
-                </li>
-                <li><a href="cases.html">cases</a></li>
-                <a href="index.html"><img src="assets/media/logo.png" width="130" id="homebtn" draggable="false"></a>
-                <li><a href="presidents.html">presidents</a></li>
-				<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">quizzes</a>
-					<div class="dropdown-content">
-						<a href="quiz1.html">1491-1754</a>
-						<a href="quiz2.html">1754-1800</a>
-						<a href="quiz3.html">1800-1848</a>
-						<a href="quiz4.html">1848-1898</a>
-						<a href="quiz5.html">1890-1945</a>
-						<a href="quiz6.html">1945-Present</a>
-					</div>
-                </li>
-			</ul>
-		</nav>
+		<header>
+			<div class="button-wrap">
+				<span class="toggle-button">
+				     <div class="menu-bar menu-bar-top"></div>
+				     <div class="menu-bar menu-bar-middle"></div>
+				     <div class="menu-bar menu-bar-bottom"></div>
+				</span>
+			</div>
+
+			<div class="menu-wrap">			
+				<ul class="menu"> 
+	                <li id="home-txt"><a href="index.html">home</a></li>
+	                <li class="menu-item-has-children"><a href="javascript:void(0)" class="dropbtn">history</a>
+	                	<span class="sidebar-menu-arrow"></span>
+						<ul class="sub-menu">
+							<li><a href="period1.html">1491-1607</a></li>
+							<li><a href="period2.html">1607-1754</a></li>
+							<li><a href="period3.html">1754-1800</a></li>
+							<li><a href="period4.html">1800-1848</a></li>
+							<li><a href="period5.html">1848-1877</a></li>
+							<li><a href="period6.html">1865-1898</a></li>
+							<li><a href="period7.html">1890-1945</a></li>
+							<li><a href="period8.html">1945-1980</a></li>
+							<li><a href="period9.html">1980-Present</a></li>
+						</ul>
+					</li>
+					<li><a href="cases.html">cases</a></li>
+					<li id="home-img"><a href="index.html"><img src="assets/media/logo.png" width="130" draggable="false"></a></li>
+					<li ><a href="presidents.html">presidents</a></li>
+					<li class="menu-item-has-children"><a href="javascript:void(0)" class="dropbtn">quizzes</a>
+	                	<span class="sidebar-menu-arrow"></span>
+						<ul class="sub-menu">
+							<li><a href="quiz1.html">1491-1754</a></li>
+							<li><a href="quiz2.html">1754-1800</a></li>
+							<li><a href="quiz3.html">1800-1848</a></li>
+							<li><a href="quiz4.html">1848-1898</a></li>
+							<li><a href="quiz5.html">1890-1945</a></li>
+							<li><a href="quiz6.html">1945-Present</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</header>
 
         <div class="maps">
         	<img src="assets/media/periods/background.png" width="100%" class="fade0" alt="Blue Background" draggable="false">
@@ -130,7 +144,7 @@
 		<footer>&copy; 2017<!--Emerald Liu & Solange Nhan--></footer>
 
 	</body>
-
+	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/backtotop.js"></script>
 </html>
