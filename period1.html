@@ -12,6 +12,7 @@
         <script type="text/javascript" src="assets/js/modernizr.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="assets/js/modernizr2.js"></script>
 	</head>
 
 	<body>
@@ -74,6 +75,54 @@
         <h1 class="periodTitles">Period 1 1491-1607</h1>
 
 		<div class="period-content">
+
+		<div id="timeline-div">
+		<section class="cd-horizontal-timeline">
+			<div class="timeline">
+				<div class="events-wrapper">
+					<div class="events">
+						<ol class="reset">
+							<li><a href="#0" data-date="01/01/1451" class="selected">1451</a></li>
+							<li><a href="#0" data-date="01/06/1452">1492</a></li>
+							<li><a href="#0" data-date="01/02/1455">1540</a></li>
+							<li><a href="#0" data-date="01/09/1455">1500-1600</a></li>
+						</ol>
+
+						<span class="filling-line" aria-hidden="true"></span>
+					</div> <!-- .events -->
+				</div> <!-- .events-wrapper -->
+					
+				<ul class="cd-timeline-navigation" class="reset">
+					<li class="reset"><a href="#0" class="prev inactive">Prev</a></li>
+					<li class="reset"><a href="#0" class="next">Next</a></li>
+				</ul> <!-- .cd-timeline-navigation -->
+			</div> <!-- .timeline -->
+
+			<div class="events-content">
+				<ol class="reset">
+					<li class="selected" data-date="01/01/1451">
+						<h6>Establishment of Iroquois tribes</h6>
+						<em>1451</em>
+					</li>
+
+					<li data-date="01/06/1452">
+						<h6>Christopher Columbus Reached the New World and the Columbian Exchange</h6>
+						<em>October 12, 1492</em>
+					</li>
+
+					<li data-date="01/02/1455">
+						<h6>Establishment of Pueblo society</h6>
+						<em>1540</em>
+					</li>
+
+					<li data-date="01/09/1455">
+						<h6>Encomienda systems</h6>
+						<em>1500-1600</em>
+					</li>
+				</ol>
+			</div> <!-- .events-content -->
+		</section>
+		</div> 
 		
 		<p>Welcome to the start of U.S. History! For each period, we will be outlining the basics, including any major events that should be remembered and what you should take away from the time period.</p>
 
@@ -147,4 +196,7 @@
 	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/backtotop.js"></script>
+	<script src="assets/js/jquery-2.1.4.js"></script>
+	<script src="assets/js/jquery.mobile.custom.min.js"></script>
+	<script src="assets/js/timeline.js"></script>
 </html>
