@@ -56,11 +56,11 @@ h5 {
 }
 
 p {
-	padding: 0% 10%
+	margin: 1.2% 10%;
 }
 
 ul {
-    padding: 0% 12%
+    padding: 0% 12%;
 }
 
 footer {
@@ -447,6 +447,7 @@ span {
 .presPic{
 	float: left;
 	margin: 2px;
+    width: 24%;
 }
 
 /* court case styles */
@@ -474,7 +475,9 @@ span {
     text-align: center;
     text-decoration: none;
     font-size: 25pt;
-    padding: 110px 40px;
+    padding-top: 100px;
+    width: 250px;
+    height: 140px;
     background-color: white;
     display: table;
     border-bottom: 10px solid #446cb4;
@@ -504,7 +507,7 @@ span {
 .case, .case-aka{
     font-size: 16pt;
     font-weight: bold;
-    margin: 0;
+    margin: 0 10%;
 }
 
 .case-aka{

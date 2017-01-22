@@ -1,9 +1,104 @@
-h1{
-  font-size:40pt;
+/* global */
+p{
+    margin: 5% 8%;
 }
 
-h3{
-  margin: 20px 0;
+h1{
+    font-size:36pt;
+}
+
+.periodTitles{
+    padding-top: 20px;
+    margin: 20px 10px;
+}
+
+ul{
+    padding: 0 8% 0 12%;
+}
+/* index */
+#blue-bg{
+  height: 500px;
+}
+
+#slogan{
+    font-size: 36pt;
+    top: 15%;
+}
+
+#about-para{
+    margin: 10% 0;
+}
+
+/* president */
+.presPic{
+    width: 48%;
+}
+
+.info-container{
+    display: block;
+    color: white;
+    text-align: center;
+    top: 40px;
+    bottom: auto;
+    left: 0;
+    background-color: #585858;
+    position: fixed;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.info-container:before{
+  content: "";
+    width: 0;
+    height: 0;
+    top: -40px;
+    left: 44%;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #585858;
+}
+
+/* cases */
+h4{
+    font-size: 16pt;
+    margin: 7% 8%;
+}
+
+.case, .case-aka{
+  font-size: 14pt;
+}
+#prom-courts{
+    margin: 0;
+}
+
+#squares1{
+    float:none;
+}
+
+#squares3{
+    float:none;
+}
+
+#squares2{
+    display: block;
+    margin: 0;
+}
+
+#sub-nav a {
+    color: #446cb4;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35pt;
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    display: block;
+    margin: 20px auto;
+    border-bottom: none;
 }
 
 #marshall, #warren {
@@ -12,20 +107,30 @@ h3{
 }
 
 #case-1, #case-2, #case-3{
- float:none;
-  display:inline-block;
+    float:none;
+    display:inline-block;
 }
+
+/* quizzes */
+h3{
+    margin: 15px 0;
+}
+
 .aboutQuiz{
-  margin:5% 8%;
+    margin:5% 8%;
 }
 
 #quiz{
-  width:100%;
+    width:100%;
+}
+
+.quiz-para{
+    margin: 0;
 }
 
 #container{
-  width:80%;
-  font-size:18pt;
-  padding-left:30px;
+    width:80%;
+    font-size:18pt;
+    padding-left:30px;
 }
 
