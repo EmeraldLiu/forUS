@@ -32,7 +32,7 @@ ul{
 /* navigation */
 
 .toggle-button {
-    position: fixed;
+    position: absolute;
     width: 40px;
     height: 40px;
     transition: .25s;
