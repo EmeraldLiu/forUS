@@ -482,22 +482,22 @@ span {
 }
 
 .info-container{
-	display: none;
-	color: white;
+	  display: none;
+	  color: white;
     text-align: center;
-	max-width: 500px;
-	bottom: 40px;
-	left: 50px;
-	background-color: #585858;
-	position: fixed;
-	-moz-border-radius: 10px;
+	  max-width: 500px;
+	  bottom: 40px;
+	  left: 50px;
+	  background-color: #585858;
+	  position: fixed;
+	  -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     padding: 0 30px;
 }
 
 .info-container:before{
-	content: "";
+	  content: "";
     width: 0;
     height: 0;
     top: 100%;
@@ -522,8 +522,8 @@ span {
 }
 
 .presPic{
-	float: left;
-	margin: 2px;
+	  float: left;
+	  margin: 2px;
     width: 24%;
 }
 
