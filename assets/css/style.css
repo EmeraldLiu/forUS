@@ -726,7 +726,7 @@ ul.sub-menu{
 
 .info-container{
 	  display: none;
-	  color: white;
+	  color: #585858;
     text-align: center;
 	  max-width: 500px;
 	  bottom: 40px;
@@ -905,7 +905,7 @@ button {
 }
 
 .quizQuestion {
-    padding: 0;
+    margin: 0;
 }
 
 #question {
