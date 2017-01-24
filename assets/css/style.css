@@ -95,6 +95,15 @@ footer {
     margin-bottom: 1%;
 }
 
+.highlight {
+  color: #dd4949;
+}
+
+.bottom-line {
+  color: #446cb4;
+  text-transform: uppercase;
+}
+
 /* nav styles */
 .menu-wrap {
     font-family: din, sans-serif;
