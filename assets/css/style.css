@@ -11,7 +11,7 @@ green: #9fd189;
 
 */
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,800');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 @font-face {
@@ -22,7 +22,7 @@ green: #9fd189;
 /* base styles and universal styles */
 html {
 	color: #212121;
-	font-family: 'Nunito+Sans', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 body {
