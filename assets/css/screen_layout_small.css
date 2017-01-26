@@ -21,7 +21,8 @@ h1{
 }
 
 .periodTitles{
-    padding-top: 20px;}
+    padding-top: 60px;
+}
 
 ul{
     padding: 0 8% 0 12%;
@@ -153,7 +154,7 @@ ul.sub-menu{
     height: 0.15em;
     position: absolute;
     top: 100%;
-    width: 100%;
+    width: 103%;
     left: 50%;
     transform: translate(-50%);
     background-image: linear-gradient(to right, transparent 50.3%, #FFFA3B 50.3%);
@@ -162,7 +163,7 @@ ul.sub-menu{
 }
 
 .sub-menu li > a::after{
-    width: 100%;
+    width: 105%;
     height: 0.13em;
 }
 
@@ -209,7 +210,16 @@ ul.sub-menu{
 
 #slogan{
     font-size: 36pt;
+    top: 35%;
+}
+
+#logo-mobile{
+    position: absolute;
     top: 15%;
+    left: 0;
+    width: 40%;
+    margin: 0 30%;
+    display: block;
 }
 
 #about-para{
