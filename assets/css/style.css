@@ -105,6 +105,8 @@ footer {
 .bottom-line {
   color: #446cb4;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12pt;
 }
 
 /* nav styles */
@@ -520,7 +522,6 @@ ul.sub-menu{
 .cd-horizontal-timeline .events-content {
   position: relative;
   width: 100%;
-  margin: 2em 0;
   overflow: hidden;
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
