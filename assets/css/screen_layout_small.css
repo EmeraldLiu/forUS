@@ -154,7 +154,7 @@ ul.sub-menu{
     height: 0.15em;
     position: absolute;
     top: 100%;
-    width: 103%;
+    width: 99%;
     left: 50%;
     transform: translate(-50%);
     background-image: linear-gradient(to right, transparent 50.3%, #FFFA3B 50.3%);
@@ -163,7 +163,7 @@ ul.sub-menu{
 }
 
 .sub-menu li > a::after{
-    width: 105%;
+    width: 99%;
     height: 0.13em;
 }
 
