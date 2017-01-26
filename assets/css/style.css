@@ -726,6 +726,48 @@ ul.sub-menu{
   }
 }
 
+/* Color Key for Presidents
+    credit: http://jsfiddle.net/MTB2q/ */
+.color { 
+  list-style-type: none;
+  text-align: center;
+  padding: 2%;
+}
+
+.color li { 
+  display: inline-block;
+}
+
+.color span { 
+  display: inline-block;
+  width: 15px; 
+  height: 15px; 
+  margin: 0 5px; 
+}
+
+.color .grey { 
+  background-color: #636363; 
+}
+
+.color .orange { 
+  background-color: #e99030; 
+}
+
+.color .purple { 
+  background-color: #594dcf; 
+}
+
+.color .blue { 
+  background-color: #446cb4; 
+}
+
+.color .green { 
+  background-color: #5ba54c; 
+}
+
+.color .red { 
+  background-color: #dd4949; 
+}
 
 /* Presidents styles */
 .presInfo ul{
