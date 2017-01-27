@@ -2,31 +2,13 @@
 h1{
 	font-size: 40pt;
 }
-.periodTitles{
-	padding: 2% 0;
-}
+
 
 /* Nav styles */
-nav ul li a, .dropbtn {
-	font-size: 20pt;
+.menu li{
+	margin: 10px 15px;
 }
 
-nav ul li {
-	margin: 10px 22px 10px 22px;
-}
-
-#homebtn{
-    margin: 20px 12px 0 12px;
-}
-
-.dropdown-content {
-    margin-left:-30px;
-}
-
-.dropdown-content a{
-    padding: 10px 8px 7px 8px;
-    font-size: 18pt;
-}
 
 /* home page */
 #slogan{
@@ -35,4 +17,22 @@ nav ul li {
 
 #about-para{
 	font-size: 11pt;
+}
+
+/* President page */
+.presPic{
+	width: 32.5%;
+}
+
+/* case page */
+#sub-nav a{
+	font-size: 20pt;
+	width: 180px;
+	height: inherit;
+	border-bottom: none;
+}
+
+#marshall, #warren{
+	float: none;
+	max-width: 100%;
 }
