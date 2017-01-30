@@ -239,13 +239,17 @@ ul.sub-menu{
     width: 48%;
 }
 
-.info-container{
-    display: none;
-    left: 0px;
-    bottom: 0px;
-    border-radius: 0px;
+.info-container h2{
+    font-size: 1.3em;
 }
 
+.info-container ul{
+    padding: 0 5%;
+}
+
+.pres-aka{
+    font-size: 1.1em;
+}
 /*.info-container:before{
   content: "";
     width: 0;
