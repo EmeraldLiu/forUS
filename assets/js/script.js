@@ -20,16 +20,24 @@ $(document).ready(function() {
 
 });
 
+
 // President page //
 $(document).ready(function(){
 
   $('div.presInfo').each(function() {
     var $presInfo = $(this);
 
-    $("img.presPic", $presInfo).click(function(e) {
+    /*$("img.presPic", $presInfo).click(function(e) {
       e.preventDefault();
       $currentInfo = $("div.info-container", $presInfo);
       $currentInfo.toggle();
+      $("div.info-container").not($currentInfo).hide();
+      return false;
+    });*/
+    $("img.presPic", $presInfo).click(function(e) {
+      e.preventDefault();
+      $currentInfo = $("div.info-container", $presInfo);
+      $currentInfo.slideToggle(1300);
       $("div.info-container").not($currentInfo).hide();
       return false;
     });
