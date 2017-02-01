@@ -162,10 +162,10 @@ ul.sub-menu{
     height: 0.15em;
     position: absolute;
     top: 100%;
-    width: 99%;
+    width: 100%;
     left: 50%;
     transform: translate(-50%);
-    background-image: linear-gradient(to right, transparent 50.3%, #FFFA3B 50.3%);
+    background-image: linear-gradient(to right, transparent 50.5%, #FFFA3B 50%);
     transition: background-position .2s .1s ease-out;
     background-size: 200% auto;
 }
