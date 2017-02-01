@@ -276,26 +276,12 @@ h4{
     margin: 0;
 }
 
-#squares1{
-    float:none;
-}
-
-#squares3{
-    float:none;
-}
-
-#squares2{
-    display: block;
-    margin: 0;
-}
-
 #sub-nav a {
     font-size: 30pt;
     width: 280px;
-    display: block;
-    margin: 20px auto;
-    border-bottom: none;
-    padding-top:90px;
+    height: 140px;
+    margin-bottom: 20px;
+    padding:90px 0 0 0;
 }
 
 #marshall, #warren {

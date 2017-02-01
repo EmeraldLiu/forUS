@@ -24,6 +24,7 @@ html {
 	color: #212121;
 	font-family: 'Nunito Sans', 'Roboto Condensed', sans-serif;
 	font-weight:300;
+  min-width: 360px;
 }
 
 body {
@@ -295,6 +296,10 @@ ul.sub-menu{
     animation-delay:10.5s;
 }
 
+.open-p{
+  max-width: 800px;
+  margin: 30px auto;
+}
 /* timeline styles 
     credit: https://codyhouse.co/gem/horizontal-timeline/*/
 *, *::after, *::before {
@@ -446,7 +451,7 @@ ul.sub-menu{
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
-    margin: 6em auto;
+    margin: 3em auto;
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
@@ -855,39 +860,28 @@ ul.sub-menu{
 }
 
 #sub-nav{
-    clear: left;
-    margin: 0 10%;
-    background-color: #446cb4;
+  clear: left;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;  
 }
 
 #sub-nav a {
     color: #446cb4;
     text-align: center;
     text-decoration: none;
-    font-size: 25pt;
-    padding-top: 100px;
-    width: 250px;
-    height: 140px;
+    font-size: 30pt;
+    padding: 120px 0;
+    width: 300px;
     background-color: white;
-    display: table;
-    border-bottom: 10px solid #446cb4;
 }
 
 #prom-cases{
     color: #446cb4;
-}
-
-#squares1{
-    float: left;
-}
-
-#squares3{
-    float: right;
-}
-
-#squares2{
-    display: table;
-    margin: auto;
 }
 
 #case-1{
@@ -908,7 +902,7 @@ ul.sub-menu{
 /* quiz page styles */
 #quiz {
     display: none;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 

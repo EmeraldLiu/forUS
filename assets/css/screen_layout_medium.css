@@ -6,9 +6,25 @@ h1{
 
 /* Nav styles */
 .menu li{
-	margin: 10px 15px;
+	margin: 10px 22px;
 }
 
+.menu li > a, .dropbtn{
+	font-size: 22pt;
+}
+
+.sub-menu{
+	margin-left: -29px;
+}
+
+.menu .sub-menu li{
+	margin: 0;
+}
+
+.sub-menu li a{
+	font-size: 18pt;
+	padding: 12px 10px 5px 10px;
+}
 
 /* home page */
 #slogan{
@@ -19,6 +35,11 @@ h1{
 	font-size: 11pt;
 }
 
+/* period page */
+.open-p{
+	padding: 0 10%;
+}
+
 /* President page */
 .presPic{
 	width: 32.5%;
@@ -26,13 +47,13 @@ h1{
 
 /* case page */
 #sub-nav a{
-	font-size: 20pt;
-	width: 180px;
-	height: inherit;
-	border-bottom: none;
+	font-size: 22pt;
+	width: 220px;
+	padding: 90px 0;
 }
 
 #marshall, #warren{
 	float: none;
 	max-width: 100%;
 }
+
