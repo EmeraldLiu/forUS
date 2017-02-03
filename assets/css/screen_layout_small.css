@@ -234,6 +234,11 @@ ul.sub-menu{
     margin: 10% 0;
 }
 
+/* periods */
+.open-p{
+    padding: 2% 8%;
+}
+
 /* president */
 .presPic{
     width: 48%;
@@ -250,18 +255,6 @@ ul.sub-menu{
 .pres-aka{
     font-size: 1.1em;
 }
-/*.info-container:before{
-  content: "";
-    width: 0;
-    height: 0;
-    top: -40px;
-    left: 44%;
-    position: absolute;
-    border-left: 20px solid transparent;
-    border-top: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid #585858;
-}*/
 
 /* cases */
 h4{
