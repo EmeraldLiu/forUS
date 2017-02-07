@@ -10,9 +10,9 @@ light grey: #c9c9c9;
 green: #5ba54c;
 
 */
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,800');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
 
 @font-face {
     font-family: din;
@@ -806,19 +806,6 @@ ul.sub-menu{
   padding: 0;
 }
 
-/*.info-container:before{
-	  content: "";
-    width: 0;
-    height: 0;
-    top: 100%;
-    left: 35px;
-    position: absolute;
-    border-left: 20px solid transparent;
-    border-top: 20px solid #f0e9dc;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-}
-*/
 #presGrid{
     margin: 0px 10%;
 }
@@ -838,13 +825,28 @@ ul.sub-menu{
 }
 
 .pres-aka{
-  color: #dd4949;
-  font-weight: bold;
-  font-size: 1.2em;
+    color: #dd4949;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .pres-highlight{
-  color: #446cb4;
+    color: #446cb4;
+}
+
+.hover-text{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+h2:hover span#dinner-content, a:hover span#lunch-content, a:hover span#bakery-content{
+    opacity: 1;
 }
 /* court case styles */
 #prom-courts{
