@@ -835,19 +835,27 @@ ul.sub-menu{
 }
 
 .hover-text{
+    font-family: "Dancing Script" , Script;
+    font-size: 2.3em;
     color: white;
     cursor: pointer;
-    position: absolute;
-    opacity: 0;
+    opacity: 1;
+    padding: 10px 0 0 18px;
+    z-index: 1;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
     -o-transition: opacity 500ms;
     transition: opacity 500ms;
 }
 
-h2:hover span#dinner-content, a:hover span#lunch-content, a:hover span#bakery-content{
+img:hover .hover-text{
+  opacity: 1;
+}
+.hover-text:hover {
     opacity: 1;
 }
+
+
 /* court case styles */
 #prom-courts{
     margin: 0 10% 3% 10%;
