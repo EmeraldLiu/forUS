@@ -80,7 +80,7 @@
           $("img.presPic", $presInfo).click(function(e) {
             e.preventDefault();
             $currentInfo = $("div.info-container", $presInfo);
-            $currentInfo.slideToggle(1300);
+            $currentInfo.slideToggle(900);
             $("div.info-container").not($currentInfo).hide();
             return false;
           });

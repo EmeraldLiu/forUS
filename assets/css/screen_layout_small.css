@@ -240,7 +240,7 @@ ul.sub-menu{
 }
 
 /* president */
-.presPic{
+.img-container{
     width: 48%;
 }
 
@@ -257,7 +257,9 @@ ul.sub-menu{
 }
 
 .hover-text{
-    font-size: 1.8em;
+    font-size: 1.7em;
+    opacity: 1;
+    padding: 3px 8px;
 }
 /* cases */
 h4{

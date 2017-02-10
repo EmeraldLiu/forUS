@@ -806,24 +806,6 @@ ul.sub-menu{
   padding: 0;
 }
 
-#presGrid{
-    margin: 0px 10%;
-}
-
-.presInfo{
-    display: block;
-}
-
-#presPage{
-	clear: left;
-}
-
-.presPic{
-	  float: left;
-	  margin: 2px;
-    width: 24%;
-}
-
 .pres-aka{
     color: #dd4949;
     font-weight: bold;
@@ -834,25 +816,44 @@ ul.sub-menu{
     color: #446cb4;
 }
 
+#presGrid{
+    margin: 0px 10%;
+}
+
+.presInfo{
+    display: block;
+}
+
+#presPage{
+	  clear: left;
+}
+
+.img-container{
+    width: 24%;
+    float: left;
+    margin: 0 2.6px;
+}
+
+.presPic{
+    width: 100%;
+}
+
 .hover-text{
-    font-family: "Dancing Script" , Script;
-    font-size: 2.3em;
+    font-family: "Dancing Script" , cursive;
+    font-size: 2.2em;
     color: white;
     cursor: pointer;
-    opacity: 1;
-    padding: 10px 0 0 18px;
-    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    padding: 7px 15px;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
     -o-transition: opacity 500ms;
     transition: opacity 500ms;
 }
 
-img:hover .hover-text{
+.img-container:hover span.hover-text{
   opacity: 1;
-}
-.hover-text:hover {
-    opacity: 1;
 }
 
 
