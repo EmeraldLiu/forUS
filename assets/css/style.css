@@ -743,6 +743,11 @@ ul.sub-menu{
   list-style-type: none;
   text-align: center;
   padding: 2%;
+  font-size: 13pt;
+}
+
+.color p{
+  font-size: 15pt;
 }
 
 .color li { 
@@ -753,7 +758,7 @@ ul.sub-menu{
   display: inline-block;
   width: 15px; 
   height: 15px; 
-  margin: 0 5px; 
+  margin-left: 10px; 
 }
 
 .color .grey { 
@@ -800,6 +805,7 @@ ul.sub-menu{
 	  position: fixed;
     border-top: 3px solid white;
     padding: 0 10px;
+    z-index: 1;
 }
 
 .info-container ul{
