@@ -786,6 +786,12 @@ ul.sub-menu{
 }
 
 /* Presidents styles */
+.close-x{
+  font-size: 20pt;
+  position: absolute;
+  font-weight: 400;
+}
+
 .presInfo ul{
     padding-left: 0;
 }

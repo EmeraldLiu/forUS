@@ -87,7 +87,7 @@
 
       });
           
-        $('html').click(function(){
+        $('div.close-x').click(function(){
           $("div.info-container").hide();
         });
 
