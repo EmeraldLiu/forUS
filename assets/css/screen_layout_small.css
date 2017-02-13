@@ -156,7 +156,7 @@ ul{
 ul.sub-menu{
     padding: 0;
 }
-.menu li > a::after, .sub-menu li > a::after,{
+.menu li > a::after, .sub-menu li > a::after{
     content: "";
     display: block;
     height: 0.15em;
@@ -186,7 +186,6 @@ ul.sub-menu{
 .menu .menu-item-has-children {
     position: relative;
 }
-/*
 .menu .menu-item-has-children .sub-menu {
     display: none;
 }
@@ -210,7 +209,8 @@ ul.sub-menu{
 }
 .sidebar-menu-arrow:active::after {
     top: 4px;
-}*/
+}
+
 /* index */
 #blue-bg{
     height: 500px;
