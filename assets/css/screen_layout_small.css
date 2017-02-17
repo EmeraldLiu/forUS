@@ -193,7 +193,6 @@ ul.sub-menu{
 .sub-menu{
     font-size: 14pt;
     color: white;
-
 }
 .sidebar-menu-arrow::after {
     content: "+";
@@ -211,6 +210,12 @@ ul.sub-menu{
     top: 4px;
 }
 
+span.dropbtn::active{
+    color: black;
+    font-size: 40pt;
+    display:block;
+    opacity: 1;
+}
 /* index */
 #blue-bg{
     height: 500px;
