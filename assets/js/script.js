@@ -82,7 +82,7 @@
           $("img.presPic", $presInfo).click(function(e) {
             e.preventDefault();
             $currentInfo = $("div.info-container", $presInfo);
-            $currentInfo.slideToggle(900);
+            $currentInfo.slideDown(900);
             $("div.info-container").not($currentInfo).hide();
             return false;
           });
@@ -90,7 +90,7 @@
       });
           
         $('div.close-x').click(function(){
-          $("div.info-container").hide();
+          $("div.info-container").slideUp(900);
         });
 
       //-----------END OF PRESIDENTS------------//
