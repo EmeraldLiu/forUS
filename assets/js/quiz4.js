@@ -1,10 +1,10 @@
 (function() {
   var questions = [{
-    question: "What region was affected by the spread of Maize?",
-    choices: ["Northwest", 
-              "Northeast", 
-              "South", 
-              "Southwest"],
+    question: "What sectional differences between the North and South influenced the rise of the Free Soil party?",
+    choices: ["Northerners supported the Free Soil party and wanted southern slaveholders to liberate their slaves", 
+              "The Free Soil party membership was largely southern and demanded the North to accept freed slaves", 
+              "The Free Soil party highlighted the growing religious differences", 
+              "The Free Soil party highlighted the growing economic differences resulting from unequal industrialization"],
     correctAnswer: 3
   }, {
     question: "What was NOT a reason for the Spanish Conquest?",

@@ -3,31 +3,6 @@ h1{
 	font-size: 40pt;
 }
 
-
-/* Nav styles */
-/*
-.menu li{
-	margin: 10px 22px;
-}
-
-.menu li > a, .dropbtn{
-	font-size: 20pt;
-}
-
-.sub-menu{
-	margin-left: -29px;
-}
-
-.menu .sub-menu li{
-	margin: 0;
-}
-
-.sub-menu li a{
-	font-size: 18pt;
-	padding: 12px 10px 5px 10px;
-}
-*/
-
 /* navigation */
 
 .toggle-button {
@@ -227,7 +202,7 @@ span.dropbtn::active{
     display: block;
 }
 
-/* period page */
+/* Period page */
 .open-p{
 	padding: 0 8%;
 }
@@ -253,3 +228,11 @@ span.dropbtn::active{
 	max-width: 100%;
 }
 
+/* Quiz page */
+#container{
+	width: 70%;
+}
+
+#quiz{
+	width: 80%;
+}

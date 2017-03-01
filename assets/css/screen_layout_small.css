@@ -328,3 +328,10 @@ h3{
     padding-left:30px;
 }
 
+.quizList{
+    font-size: 15pt;
+}
+
+.quizQuestion{
+    font-size: 18pt;
+}
