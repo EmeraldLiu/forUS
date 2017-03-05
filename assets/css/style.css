@@ -922,6 +922,24 @@ ul.sub-menu{
     color: #dd4949;
 }
 
+.caselink {
+  font-size: 12pt;
+}
+
+.caselink {
+  text-decoration: none;
+  color: #446cb4;
+  font-weight: bold;
+}
+
+.caselink:hover {
+  color: #1F4EA3;
+}
+
+.case-link{
+  margin: 0 10%;
+}
+
 /* quiz page styles */
 #quiz {
     display: none;
