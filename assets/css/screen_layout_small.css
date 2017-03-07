@@ -335,3 +335,8 @@ h3{
 .quizQuestion{
     font-size: 18pt;
 }
+
+#question h2{
+    font-size: 20pt;
+    margin: 10px 0;
+}

@@ -992,7 +992,12 @@ button {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    color: #c9c9c9;
+    font-size: 17pt;
+    color: #aaa;
+}
+
+.quizList li{
+  padding: 2px 0;
 }
 
 #back {
@@ -1009,7 +1014,7 @@ button {
 }
 
 .quizQuestion {
-    margin: 0;
+    margin: 0 0 15px 0;
     font-size: 20pt;
 }
 

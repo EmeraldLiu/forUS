@@ -1,74 +1,74 @@
 (function() {
   var questions = [{
     question: "What sectional differences between the North and South influenced the rise of the Free Soil party?",
-    choices: ["Northerners supported the Free Soil party and wanted southern slaveholders to liberate their slaves", 
-              "The Free Soil party membership was largely southern and demanded the North to accept freed slaves", 
-              "The Free Soil party highlighted the growing religious differences", 
-              "The Free Soil party highlighted the growing economic differences resulting from unequal industrialization"],
+    choices: ["The continuation of slavery", 
+              "The population difference", 
+              "The growing religious differences and ethnic backgrounds", 
+              "The growing economic differences resulting from industrialization"],
     correctAnswer: 3
   }, {
-    question: "What was NOT a reason for the Spanish Conquest?",
-    choices: ["Gold", 
-              "Gifts", 
-              "God", 
-              "Glory"],
+    question: "What was the attitude of the Republican Party towards the Civil War?",
+    choices: ["They supported it because they wanted to give slaves equality", 
+              "They supported it because the Union could not be dissolved", 
+              "They opposed it because slavery was permissible", 
+              "They opposed it because it favored the state’s rights"],
     correctAnswer: 1
   }, {
-    question: "What impact did the Spanish colonists bring to the Indians?",
-    choices: ["The spread of disease killed 90% Indians", 
-              "They brought African slaves over",
-              "They brought crops such as potatoes",
-              "No impact"],
+    question: "Why was the Emancipation Proclamation of 1863 so significant?",
+    choices: ["It authorized racial integration in the military", 
+              "It abolished slavery in the nation",
+              "It added the abolition of slavery to the Northern war goals",
+              "It simply reaffirmed the abolition of slavery"],
+    correctAnswer: 2
+  }, {
+    question: "How did the women’s rights activist react to the 15th Amendment?",
+    choices: ["They supported it because it allowed women to vote as well",  
+              "They opposed it because it refused to ban gender discrimination", 
+              "The amendment fractured the women’s rights movement", 
+              "They ignored it because they only concern with their suffrage"],
+    correctAnswer: 2
+  }, {
+    question: "What impact did the Transcontinental Railroad have on Native Americans and the people living in the West?",
+    choices: ["It increased cultural and political pressure", 
+              "It brought prosperity as railroad companies paid money for their land", 
+              "It allowed them to travel freely", 
+              "It brought prosperity because more farmers traded with them"],
     correctAnswer: 0
   }, {
-    question: "Which two European nations developed a good trading relationship with the Native Americans?",
-    choices: ["English and French",  
-              "Dutch and Spanish", 
-              "Spanish and French", 
-              "French and Dutch"],
+    question: "What was a solution to inequality as suggested by the “Gospel of Wealth”?",
+    choices: ["Poor people must pray to become wealthy",
+              "Benefactors should use their wealth to help the poor",
+              "Wealthy individual must serve as role model",
+              "Religious revival must occur to end sin and provide equality"],
+    correctAnswer: 0
+  }, {
+    question: "What is the purpose behind the Chinese Exclusion Act?",
+    choices: ["To reduce transportation of opium into America",
+              "To fight against the Chinese as they attacked the US Navy",
+              "To stop Chinese influence in industry and religion",
+              "To reduce economic competition for the Nativists"],
     correctAnswer: 3
   }, {
-    question: "Who was kicked out of the Puritan society and formed his or her own State?",
-    choices: ["Anne Hutchinson, who established Maryland", 
-              "Hester Prynne, who established Massachusetts", 
-              "Roger Williams, who established Rhode Island", 
-              "William Penn, who established Pennsylvania"],
-    correctAnswer: 2
-  }, {
-    question: "What event led by indentured servants changed the nation?",
-    choices: ["Bacon’s Rebellion",
-              "King Philip’s War",
-              "Pueblo Revolt",
-              "Shay’s Rebellion"],
-    correctAnswer: 0
-  }, {
-    question: "What is NOT is a way the English tried to tighten control on the colonies?",
-    choices: ["Mercantilism",
-              "Pass the Navigation Acts",
-              "Establish the Iroquois Confederacy",
-              "Establish the Dominion of New England"],
-    correctAnswer: 2
-  }, {
-    question: "What is the reason for the start of Great Awakening?",
-    choices: ["To restore the declining economy after British collected taxes",
-              "To revive the current religious state because people focus too much on material wealth",
-              "To attract more religious followers in the New World",
-              "The greater production of Bibles"],
+    question: "Which of the following did the immigrants from southern and eastern Europe NOT support during the late 19th century?",
+    choices: ["They supported religious tolerance",
+              "They supported temperance laws",
+              "They supported diversity and continuation of native languages",
+              "They supported traditional cuisine and other customs"],
     correctAnswer: 1
   }, {
-    question: "Why was slavery more prevalent in the South than the North?",
-    choices: ["Southern colonies relied more on labor for crops",
-              "The religious North didn’t want slaves",
-              "Slaves died in colder climates",
-              "Slaves could performed better on farmland"],
-    correctAnswer: 0
+    question: "What statement best describe Indian tribes in the late 19th century?",
+    choices: ["They had been destroyed by the military forces",
+              "They were still strong political, military, and cultural forces that resisted intervention",
+              "The US no longer treated them as sovereign units and forced to intervene",
+              "The US treated them as sovereign units and kept their reservations/land"],
+    correctAnswer: 2
   }, {
-    question: "Which best describes how Britain ruled the colonies prior to mid-1700s?",
-    choices: ["Colonies were neglected but praised",
-              "Rules were rarely enforced so the colonies benefitted from it",
-              "Isolated the colonies from each other",
-              "Stopped trading with the colonies"],
-    correctAnswer: 1
+    question: "What effects did Reconstruction have on the legal rights of freedmen living in the South?",
+    choices: ["It had little benefits because of poor execution",
+              "It had some benefits because it forced freedman to work",
+              "It had many benefits because all slave owners were imprisoned",
+              "It had many benefits because it gave freedman jobs"],
+    correctAnswer: 0
   }];
   
   var questionCounter = 0; //Tracks question number
